@@ -3,12 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://use.typekit.net/emr1hyx.css">
+        <link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
     </head>
     <body>
-        <section class="landing">
-            <a class="logo" href="#"><img src="images/logo.svg" alt="logo"></a>
+
+
+        <header>
+
+            <a class="logo" href="#"><img src="images/logo.png" alt="logo"></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
             <nav>
 
                 <a href="">Résumé</a>
@@ -17,9 +25,70 @@
                 <a href=""></a>
             </nav>
 
-            <h1>Medina Mohamed</h1>
-            <h2>Interactive Media Developer</h2>
-            <h2>Based in Montreal,Qc</h2>
+        </header>
+        <section class="landing">
+
+            <hgroup id="container">
+                <h1>Medina Mohamed</h1>
+                <h2>Interactive Media Developer</h2>
+                <h2>Based in Montreal,Qc</h2>
+            </hgroup>
+
         </section>
+
+        <section class="selected-work">
+            <h3>Selected Work</h3>
+
+            <div id="work-1" class="work">
+                <h2>01</h2>
+                <h1>Change of Narrative</h1>
+                <img src="images/arrow.svg" alt="">
+            </div>
+
+            <div id="work-2" class="work">
+                <h2>02</h2>
+                <h1>Roots for Change</h1>
+                <img src="images/arrow.svg" alt="">
+            </div>
+
+            <div id="work-3" class="work">
+                <h2>03</h2>
+                <h1>Between Past & Present</h1>
+                <img src="images/arrow.svg" alt="">
+            </div>
+
+            <div id="work-4" class="work">
+                <h2>04</h2>
+                <h1>Allo Ada</h1>
+                <img src="images/arrow.svg" alt="">
+            </div>
+        </section>
+
+        <section class="about-me">
+            <h1>About me</h1>
+
+            <p>
+                Integer ac interdum lacus. Nunc porta semper lacus a varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc sagittis consectetur velit, ac gravida nunc gravida et. Vestibulum at eros imperdiet, volutpat nunc vitae, ornare erat. Proin interdum aliquet porta. Fusce ut semper ligula.
+            </p>
+        </section>
+
+        <section class="contact-me">
+            <h1>Contact me</h1>
+
+            <form action="">
+                <input type="text" name="name" id="name" placeholder="Name" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="text" name="message" id="message" placeholder="Message" required>
+
+            </form>
+            <button>Send email</button>
+
+            <img class="instagram" src="images/instagram-logo.svg" alt="Instagram">
+            <img class="behance" src="images/behance-logo.svg" alt="Behance">
+            <img class="twitter" src="images/twitter-logo.svg" alt="Message">
+
+
+        </section>
+
     </body>
 </html>

@@ -19,13 +19,13 @@ header {
     padding: 1.5em 0   2.5em;
     border-bottom: solid 3px var(--dark-green);
     margin: 0 5% 1.5em;
-    height: 11vh;
+    height: 10vh;
 
 }
 
 .landing{
     width:100%;
-    height:100vh;
+    height:85vh;
     overflow: hidden;
     display: flex;
 
@@ -35,19 +35,13 @@ header {
     margin-left: 5%;
 }
 
+
 .mobile-menu{
-    margin-left:5%;
     
-}
-.landing{
-    width: 100%;
-    height: 90vh;
-      
-}
-
-hgroup{
-
-
+    margin-bottom: -5%;
+    width: 10%;
+    cursor: pointer;
+    
 }
 
 hgroup h1{
@@ -55,7 +49,7 @@ hgroup h1{
     font-weight: 600;
     font-style: normal;
     text-align: left;
-    font-size: 6em;
+    font-size: 4em;
     color: var(--dark-green);
 
 }
@@ -63,18 +57,79 @@ hgroup h2 {
     font-family: europa, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2em;
+    font-size: 1.5em;
     color: var(--dark-green);
 }
 
-nav{
-    display: none;
+@media only screen and (max-width: 600px) {
+
+    body{
+        overflow-x:hidden;
+    }
+
+    .nav-header{
+    height: 80vh;
+    width:100%;
+    margin-top: 20%;
+    top:15vh;
+    background-color: var(--dark-green);
+    z-index: 1;
+    border-radius:12px;
+
+    transform: translateX(150%);
+    /* transition:transform 0.5s ease-in; */
+
+
+    }
+
+
+    .nav-links li{
+        list-style: none;
+        text-align: center;
+        margin-top: 20%;
+        opacity: 0;
+
+
+      
+        
+    }
+    .nav-links a{
+    font-family: kepler-std-display, serif;;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 3.5em;
+    color: var(--beige);
+    
+    padding: 0px 30px 0px 30px;
+    word-wrap: normal;
+    display: inline-block;
+    }
+
+   
+  
+}
+
+.nav-active{
+    transform:translateX(0%)
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity:0;
+        transform: translate(50px);
+
+    }
+    to{
+        opacity:1;
+        transform:translateX(0px);
+    }
 }
 /* ==== SELECTED WORK ==== */
 
 .selected-work{
     width: 100%;
-    height: 100vh;
+    height: 65vh;
     background-color: var(--dark-green);
 }
 
@@ -92,28 +147,28 @@ nav{
 
 .work {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin: 0 5% 1.5em;
     border-bottom: solid 3px var(--beige);
 
 
 }
-
+/* 
 .work h2{
     font-family: europa, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
     color: var(--beige);  
-}
+} */
 
 .work h1{
     font-family: kepler-std-display, serif;
     font-weight: 600;
     font-style: normal;
     text-align: left;
-    font-size: 3.5em;
+    font-size: 2.5em;
     color: var(--beige);
     margin-left: 2.5%;
 }
@@ -137,7 +192,7 @@ nav{
     font-weight: 600;
     font-style: normal;
     text-align: left;
-    font-size: 6em;
+    font-size: 4em;
     color: var(--dark-green);
 }
 
@@ -146,15 +201,15 @@ nav{
     font-family: europa, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.75em;
+    font-size: 1.5em;
     color: var(--dark-green);
 }
 
 /* ==== CONTACT ME ==== */
 .contact-me {
     height: 100vh;
-    margin: 0 5% 1.5em;
-    margin-top: 25%;
+    margin: 25% 5% 1.5em;
+
 
 }
 .contact-me h1{
@@ -162,7 +217,9 @@ nav{
     font-weight: 600;
     font-style: normal;
     text-align: left;
-    font-size: 6em;
+    font-size: 4em;
+    margin-bottom: 10%;
+
     color: var(--dark-green);
 }
 
@@ -177,3 +234,99 @@ nav{
 .twitter{
     width: 5%;
 }
+
+input {
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .message {
+    width: 100%;
+    height: 100%;
+  }
+
+
+ span {
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+    color: var(--dark-green);
+  }
+
+  button {
+    background-color: var(--light-green); /* Green */
+    border-color: var(--dark-green);
+    border-radius: 5px;
+    color: var(--dark-green);
+    padding: 5px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    width:100%;
+  }
+  #message{
+      height:25vh;
+  }
+
+  .nav-social-media{
+      margin-top:5%;
+      width:100%;
+  }
+
+/* === TABLET LAYOUT INHERITS FROM MOBILE 600PX 980PX === */
+@media only screen and (min-width: 600px) {
+    .mobile-menu{
+        display: none;
+         
+     }
+     .nav-header {
+         display: inline-block;
+        background-color: transparent;
+     }
+         
+
+     .nav-links{
+         display: flex;
+         justify-content: space-around;
+     }
+
+     .nav-links li{
+         list-style: none;
+     }
+     .nav-links a{
+        font-family: europa, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        font-size: 2em;
+        color: var(--dark-green);
+    
+        padding: 0px 0px 0px 30px;
+        word-wrap: normal;
+        display: inline-block;
+     }
+
+     hgroup h1{
+         font-size: 5em;
+     }
+
+     hgroup h2{
+        font-size: 2em;
+    }
+}
+
+
+
+/* === DESKTOP LAYOUT INHERITS FROM MOBILE AND TABLET > 980PX === */
+@media only screen and (min-width: 980px) {
+    hgroup h1{
+        font-size: 6em;
+    }
+
+    hgroup h2{
+       font-size: 2.5em;
+   }
+  }
+  

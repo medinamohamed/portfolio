@@ -18,15 +18,22 @@ body{
     font-size: 2em;
     font-weight: semi-bold;
     color: var(--dark-green);
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
     padding: 1.5em 0   2.5em;
-    border-bottom: solid 3px var(--dark-green);
-    margin: 0 5% 1.5em;
     height: 10vh;
+
+}
+
+.header-container{
+    margin: 0 5% 1.5em;
+
+    border-bottom: solid 3px var(--dark-green);
+
 
 }
 video.bgvid {
@@ -84,15 +91,15 @@ hgroup h2 {
     body{
         overflow-x:hidden;
     }
+    
 
     .nav-header{
     height: 80vh;
-    width:100%;
-    margin-top: 20%;
-    top:15vh;
+    width:90%;
+
+    position:fixed;
     background-color: var(--dark-green);
     z-index: 1;
-    border-radius:12px;
 
     transform: translateX(150%);
     transition:transform 0.5s ease-in;
@@ -448,11 +455,19 @@ input {
         display: none;
          
      }
+ 
      .nav-header {
          display: inline-block;
         background-color: transparent;
+        margin-top: 2%;
+
+        
      }
-         
+    .header-container{
+        display: flex;
+        justify-content: space-between;
+
+    }
 
      .nav-links{
          display: flex;

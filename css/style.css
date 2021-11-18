@@ -344,6 +344,7 @@ input {
     font-size: 1.25em;
     width: 90%;
     color: var(--dark-green);
+
 }
 
 .first-section button{
@@ -432,6 +433,14 @@ input {
     width: 90%;
     color: var(--dark-green);
     text-align: center;
+}
+
+.pagination a:hover {
+    color: var(--dark-green);
+}
+
+.pagination a:visited {
+    color: var(--dark-green);
 }
 
 .pagination button{

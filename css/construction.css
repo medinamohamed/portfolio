@@ -1,0 +1,42 @@
+:root {
+    --dark-green: #0C1828;
+    --light-green: #CED1D5;
+    --beige: #DCD5C9;
+  }
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--dark-green)
+}
+
+section#container {
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:relative;
+}
+
+
+hgroup h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 600;
+    font-size: 8vmax;
+    letter-spacing: -.5vmax;
+    line-height: 15vmax;
+    color:var(--light-green);
+    text-align: center;
+
+}
+hgroup h2 {
+    font-family: Gotham, Arial, Helvetica, sans-serif;
+    font-size: 1.75vmax;
+    color: var(--light-green);
+    text-align: center;
+}

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Culture Bold';
+    src: url('./fonts/Culture/other/culture-bold-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Culture Regular';
+    src: url('fonts/Culture/other/culture-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Classico Regular';
+    src: url('fonts/Classico/other/classico-webfont.woff') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Culture Regular', Arial, sans-serif;
+    background-color: EBE9E4;
+    font-size: 120px;
+}
+
+.top {
+    position: fixed;
+    top: 0%;
+    left: 9.6%;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom {
+    position: fixed;
+    top: 50%;
+    left: 9.6%;
+    width: 100%;
+    height: 100%;
+}
+
+.background h1 {
+    font-family: 'Culture Bold', Arial, sans-serif;
+    margin: 0;
+
+    color: whitesmoke;
+    font-size: 1em;
+
+}
+
+
+
+.header {
+    color: black;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+
+
+    font-family: 'Culture Bold', Arial, sans-serif;
+
+    margin: 0;
+
+}
+
+.header h1 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 0.48em;
+    font-family: 'Classico Regular', Arial, sans-serif;
+    margin: 0;
+}
+
+.header h3 {
+    font-size: 0.32em;
+    font-family: 'Classico Regular', Arial, sans-serif;
+
+    margin-top: 15%;
+}

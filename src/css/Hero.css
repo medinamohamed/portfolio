@@ -16,6 +16,7 @@
 }
 
 .header h1 {
+    color: magenta;
     font-size: 1em;
     margin: 0;
     letter-spacing: 5px;

@@ -23,8 +23,8 @@
 }
 
 .NavBar a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
+    font-style: italic;
+
 }
 
 .NavBar .MobileNavigation {
@@ -67,7 +67,7 @@
         margin: 0;
 
 
-        /* background: aqua; */
+        background: white;
 
     }
 

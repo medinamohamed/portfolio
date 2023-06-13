@@ -13,6 +13,11 @@
     src: url('fonts/Classico/other/classico-webfont.woff') format('truetype');
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -23,13 +28,15 @@ body {
 
 /* All sections */
 h2 {
-    font-size: 0.48em;
+    font-size: 0.5em;
     font-family: 'Classico Regular', Arial, sans-serif;
     margin: 0;
     left: 50%;
 }
 
 p {
+    font-family: 'Rubik', sans-serif;
+
     font-size: 0.2em;
 }
 
@@ -39,6 +46,19 @@ p {
     padding-left: 6%;
     width: 100%;
     height: 100%;
+}
+
+
+.work-button {
+    width: 6em
+}
+
+.work-button:hover span {
+    display: none
+}
+
+.work-button:hover:after {
+    content: " [Coming soon]"
 }
 
 @media only screen and (max-width: 782px) {

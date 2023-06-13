@@ -1,0 +1,67 @@
+/* About */
+
+.About {
+    height: 100vh;
+}
+
+.about h2 {
+    color: black;
+    position: absolute;
+    padding-top: 25%;
+
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    text-align: left;
+
+
+}
+
+.about p {
+    font-family: 'Rubik', sans-serif;
+    padding-top: 30%;
+    width: 110%;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+}
+
+.container {
+    padding-left: 0.5em;
+
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    padding-top: 10%;
+
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+
+}
+
+.image img {
+    padding-top: 25%;
+    padding-right: 20%;
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+}
+
+@media only screen and (max-width: 782px) {
+    .image {
+        display: none;
+    }
+
+
+    .container {
+        padding-left: 0.25em;
+        padding-right: 0.25em;
+    }
+
+
+}

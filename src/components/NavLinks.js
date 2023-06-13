@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll';
 
 const NavLinks = (props) =>{
-    const emailAddress = 'medina.ahmed.mo@gmail.com'; // Replace with your desired email address
+    const emailAddress = 'medina.ahmed.mo@gmail.com';
 
 
     return (     

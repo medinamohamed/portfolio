@@ -14,7 +14,7 @@ const NavLinks = (props) =>{
       </Link>
         </li>
         <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-            <a class="work-button">Work</a>
+            <a href=" " class="work-button">Work</a>
         </li>
         <li onClick={() => props.isMobile && props.closeMobileMenu()}>
             <a href={`mailto:${emailAddress}`} target="_blank" rel="noopener noreferrer">Contact</a>

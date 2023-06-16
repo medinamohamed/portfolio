@@ -6,9 +6,7 @@ import NavLinks from './NavLinks'
 const Navigation = () =>{
     return (
         <nav className="Navigation">
-
-        
-        <NavLinks/>
+            <NavLinks/>
         </nav>
     );
 }

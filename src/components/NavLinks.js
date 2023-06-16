@@ -1,4 +1,5 @@
 import { Link } from 'react-scroll';
+import resume from '../assets/resume.pdf';
 
 const NavLinks = (props) =>{
     const emailAddress = 'medina.ahmed.mo@gmail.com';
@@ -20,7 +21,7 @@ const NavLinks = (props) =>{
             <a href={`mailto:${emailAddress}`} target="_blank" rel="noopener noreferrer">Contact</a>
         </li>
         <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-            <a href="resume.pdf">Résumé</a>
+            <a href= { resume } target="_blank" rel="noopener noreferrer">Résumé</a>
         </li>
     </ul>
 );

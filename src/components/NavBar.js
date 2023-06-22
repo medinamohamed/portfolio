@@ -3,8 +3,6 @@ import '../css/NavBar.css';
 import MobileNavigation from './MobileNavigation';
 import Navigation from './Navigation';
 
-
-
 class NavBar extends Component {
     
     render(){

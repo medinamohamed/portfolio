@@ -2,6 +2,8 @@
 
 .About {
     height: 100vh;
+    padding-left: 0.5em;
+
 }
 
 .about h2 {
@@ -26,7 +28,6 @@
 }
 
 .container {
-    padding-left: 0.5em;
 
     display: flex;
     align-items: center;

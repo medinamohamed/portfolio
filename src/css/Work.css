@@ -1,0 +1,56 @@
+/* Work */
+
+.Work {
+    height: 100vh;
+    padding-left: 0.5em;
+
+}
+
+
+/* Work */
+.work {
+    padding-top: 12%;
+    padding-left: 8%;
+    padding-bottom: 12%;
+}
+
+
+.project-name {
+    font-family: 'Classico Regular', Arial, sans-serif;
+    font-size: 0.5em;
+
+    margin-bottom: 10px;
+    padding-top: 2.5%;
+
+    left: 50%;
+}
+
+.project img {
+    display: none;
+
+}
+
+.project-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    pointer-events: none;
+}
+
+.project-preview img {
+    width: 15rem;
+    height: auto;
+    position: absolute;
+}
+
+.project-line {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.coming-soon {
+    font-style: italic;
+}

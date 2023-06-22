@@ -11,10 +11,14 @@
 }
 
 .NavBar nav li {
+    z-index: 0;
     padding-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
     font-size: 36px;
     display: inline-block;
     font-family: 'Classico Regular', Arial, sans-serif;
+    /* background-color: white; */
 }
 
 .NavBar nav a {
@@ -73,7 +77,8 @@
 
     .NavBar nav ul li {
         text-align: center;
-        margin-bottom: 10px
+        padding-bottom: 0;
+        /* margin-bottom: 10px */
     }
 
     .NavBar a:hover {

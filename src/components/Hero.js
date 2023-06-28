@@ -8,7 +8,7 @@ class Hero extends Component {
          <section className="hero">
           <header className="header">
               <h1>MEDINA MOHAMED</h1>
-              <h2>Front-end Developer</h2>
+              <h2>Software Developer</h2>
           </header>
       </section>
       </div>

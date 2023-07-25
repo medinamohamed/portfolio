@@ -1,20 +1,24 @@
-import React, {Component} from 'react';
+import React  from 'react';
 import '../css/Hero.css';
 
-class Hero extends Component {
-  render(){
-    return (
-      <div className="Hero">
-         <section className="hero">
-          <header className="header">
-              <h1>MEDINA MOHAMED</h1>
-              <h2>Designer & Developer</h2>
-          </header>
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher'
+
+const Hero = () => {
+  const { t } = useTranslation();
+
+  return (
+    <div className="Hero">
+      <section className="hero">
+        <header className="header">
+          <h1>MEDINA MOHAMED</h1>
+          <h2>{t('title')}</h2>
+        </header>
       </section>
-      </div>
-    );
-  }
-}
+
+    </div>
+  );
+};
 
 
 export default Hero;

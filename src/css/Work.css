@@ -72,7 +72,7 @@
     filter: invert(100%);
     mix-blend-mode: difference;
     height: 400px;
-    z-index: 2;
+    z-index: 0;
     user-select: none;
     pointer-events: none;
     transform: translate(5px, 5px);

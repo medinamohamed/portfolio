@@ -63,14 +63,14 @@ function Work() {
         // Initially set cursor to invisible
        // gsap.set(cursor.current, { autoAlpha: 0 });
 
-        return () => {
-            // Clean up the event listeners
-           document.removeEventListener("mousemove", handleMouseMove);
-           if (titleRef.current) {
-               titleRef.current.removeEventListener("mouseover", () => {});
-               titleRef.current.removeEventListener("mouseout", () => {});
-           }
-        }
+        // return () => {
+        //     // Clean up the event listeners
+        //    document.removeEventListener("mousemove", handleMouseMove);
+        //    if (titleRef.current) {
+        //        titleRef.current.removeEventListener("mouseover", () => {});
+        //        //titleRef.current.removeEventListener("mouseout", () => {});
+        //    }
+        // }
     }, []);
 
     return (
@@ -82,27 +82,28 @@ function Work() {
             <div className="project">
 
               <div className="project-name" ref={titleRef}     onMouseEnter={() => setBackgroundImage(image1)}
-        onMouseLeave={() => setBackgroundImage(null)}>1. Digital Renaissance</div>
+        >1. Digital Renaissance</div>
               <div className="project-line"></div>
               </div>
               <div className="project">
 
               <div className="project-name" ref={titleRef}    onMouseEnter={() => setBackgroundImage(image2)}
-        onMouseLeave={() => setBackgroundImage(null)}>2. Between Past & Present</div>
+       >2. Between Past & Present</div>
               <div className="project-line"></div>
               </div>
               <div className="project">
 
               <div className="project-name coming-soon" ref={titleRef}   onMouseEnter={() => setBackgroundImage(image3)}
-        onMouseLeave={() => setBackgroundImage(null)} >3. Coming soon</div>
+        >3. Coming soon</div>
               <div className="project-line"></div>
               </div>
               <div className="project">
 
               <div className="project-name coming-soon" ref={titleRef} onMouseEnter={() => setBackgroundImage(image4)}
-        onMouseLeave={() => setBackgroundImage(null)}>4. Coming soon</div>
+       >4. Coming soon</div>
               </div>
-
+              <div className="project">
+</div>
 
               </div>   
               <div style={{ backgroundImage: `url(${backgroundImage})` }}  className="cursor-follow" ref={cursor}></div>

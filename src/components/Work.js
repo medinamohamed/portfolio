@@ -3,8 +3,8 @@ import gsap from 'gsap';  // Ensure you've imported gsap
 import '../css/Work.css';
 
 
-import image1 from '../assets/img.jpg';
-import image2 from '../assets/apple.jpeg';
+import image1 from '../assets/rfc.jpeg';
+import image2 from '../assets/bpnp.jpeg';
 import image3 from '../assets/sunrise.jpeg';
 import image4 from '../assets/sunset.jpeg';
 
@@ -78,29 +78,27 @@ function Work() {
             <h2>Selected Work</h2>
             
             <div className="project-list content">
+            <div className="project">
+</div>
+
 
             <div className="project">
 
-              <div className="project-name" ref={titleRef}     onMouseEnter={() => setBackgroundImage(image1)}
-        >1. Digital Renaissance</div>
+              <div className="project-name" ref={titleRef}     onMouseEnter={() => setBackgroundImage(image1)} onMouseLeave={() => setBackgroundImage(null)}
+        >1. Roots For Change</div>
               <div className="project-line"></div>
               </div>
               <div className="project">
 
-              <div className="project-name" ref={titleRef}    onMouseEnter={() => setBackgroundImage(image2)}
+              <div className="project-name" ref={titleRef}    onMouseEnter={() => setBackgroundImage(image2) } onMouseLeave={() => setBackgroundImage(null)}
        >2. Between Past & Present</div>
               <div className="project-line"></div>
               </div>
               <div className="project">
 
-              <div className="project-name coming-soon" ref={titleRef}   onMouseEnter={() => setBackgroundImage(image3)}
+              {/* <div className="project-name coming-soon"
         >3. Coming soon</div>
-              <div className="project-line"></div>
-              </div>
-              <div className="project">
-
-              <div className="project-name coming-soon" ref={titleRef} onMouseEnter={() => setBackgroundImage(image4)}
-       >4. Coming soon</div>
+              <div className="project-line"></div> */}
               </div>
               <div className="project">
 </div>

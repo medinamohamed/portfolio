@@ -59,7 +59,7 @@ function Work() {
           <div className="project-line"></div>
         </div>
         <div className="project">
-        <Link className="link" to="https://www.instagram.com/rootsforchangemtl/" target="_blank">
+        <Link className="link" to="https://github.com/medinamohamed/portfolio/" target="_blank">
 
           <div
             className="project-name"

@@ -1,0 +1,111 @@
+/* Work */
+
+.Work {
+    height: 70vh;
+    padding-left: 0.5em;
+
+}
+
+
+/* Work */
+.work {
+    padding-top: 12%;
+    padding-left: 8%;
+    padding-bottom: 12%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.link:hover {
+    font-style: italic;
+}
+
+
+.project-name {
+    font-family: 'Classico Regular', Arial, sans-serif;
+    font-size: 0.5em;
+
+    margin-bottom: 10px;
+    padding-top: 2.5%;
+
+    left: 50%;
+}
+
+.project img {
+    display: none;
+
+}
+
+.project-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    pointer-events: none;
+}
+
+.project-preview img {
+    width: 15rem;
+    height: auto;
+    position: absolute;
+}
+
+.project-line {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.coming-soon {
+    font-style: italic;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    left: 100px;
+
+}
+
+.cursor-follow {
+    position: absolute;
+    background-size: cover;
+    width: 300px;
+    filter: invert(100%);
+    mix-blend-mode: difference;
+    height: 400px;
+    z-index: 0;
+    user-select: none;
+    pointer-events: none;
+    transform: translate(5px, 5px);
+
+
+    background-position: center;
+    pointer-events: none;
+    transition: all 0.1s ease;
+
+}
+
+@media only screen and (max-width: 782px) {
+    .cursor-follow {
+        display: none;
+    }
+
+    .project-name {
+        font-size: 0.25em;
+    }
+
+    p {
+        font-size: 0.12em;
+    }
+
+
+}

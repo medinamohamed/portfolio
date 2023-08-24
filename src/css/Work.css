@@ -1,7 +1,7 @@
 /* Work */
 
 .Work {
-    height: 100vh;
+    height: 70vh;
     padding-left: 0.5em;
 
 }
@@ -12,6 +12,16 @@
     padding-top: 12%;
     padding-left: 8%;
     padding-bottom: 12%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.link:hover {
+    font-style: italic;
 }
 
 
@@ -76,5 +86,26 @@
     user-select: none;
     pointer-events: none;
     transform: translate(5px, 5px);
+
+
+    background-position: center;
+    pointer-events: none;
+    transition: all 0.1s ease;
+
+}
+
+@media only screen and (max-width: 782px) {
+    .cursor-follow {
+        display: none;
+    }
+
+    .project-name {
+        font-size: 0.25em;
+    }
+
+    p {
+        font-size: 0.12em;
+    }
+
 
 }

@@ -49,17 +49,6 @@ p {
 }
 
 
-.work-button {
-    width: 6em
-}
-
-.work-button:hover span {
-    display: none
-}
-
-.work-button:hover:after {
-    content: " [Coming soon]"
-}
 
 @media only screen and (max-width: 782px) {
     body {
@@ -71,6 +60,11 @@ p {
         font-family: 'Classico Regular', Arial, sans-serif;
         margin: 0;
         left: 50%;
+    }
+
+    ul {
+        width: 250px;
+        text-align: center;
     }
 
 }

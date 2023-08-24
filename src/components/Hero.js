@@ -1,9 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../css/Hero.css';
 
-import {  titleAnim, textVariants, letterVariants } from '../utils/motion';
 import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from './LanguageSwitcher'
 const Hero = () => {
   const { t } = useTranslation();
   return (

@@ -5,7 +5,6 @@ import NavBar from "./components/NavBar.js"
 import  Hero  from "./components/Hero.js";
 import About from "./components/About.js"
 import Work from "./components/Work.js"
-import Footer from './components/Footer.js'
 
 
 class App extends Component {
@@ -16,7 +15,6 @@ class App extends Component {
         <Hero/>
         <About/>
         <Work/>
-        <Footer/>
       </div>
     );
   }

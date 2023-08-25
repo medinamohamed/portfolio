@@ -29,7 +29,7 @@ function Work() {
       <h2>{t('work')}</h2>
       <div className="project-list content">
         <div className="project">
-        <Link className="link" to="https://www.instagram.com/rootsforchangemtl/" target="_blank">
+        <Link className="link" to="https://www.untoldstoriesmtl.com/" target="_blank">
 
           <div
             className="project-name"

@@ -15,7 +15,7 @@ const resources = {
         'bpnp': '1. Between Past & Present',
         'bpnp-desc': 'Development with Webflow | 2021',
         'rfc': '2. Roots For Change',
-        'rfc-desc': 'Brand Identity + Infographics | 2019',
+        'rfc-desc': 'Brand Identity + Social Media | 2019',
         'port-desc':' Design with Figma & Development with React | 2023'
 
     }
@@ -31,7 +31,7 @@ const resources = {
         'bpnp': '1. Entre le Passé et le Présent',
         'bpnp-desc': 'Développement avec Webflow | 2021',
         'rfc': '2. Des racines pour le changement',
-        'rfc-desc': 'Identité de marque + Infographie | 2021',
+        'rfc-desc': 'Identité de marque + Médias sociaux | 2021',
         'port-desc':'Conception avec Figma et développement avec React | 2023'
 
 

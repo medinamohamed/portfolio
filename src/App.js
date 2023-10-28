@@ -1,15 +1,20 @@
 import React, {Component} from 'react';
 import './App.css'
 
-import ComingSoon from "./components/ComingSoon.js"
-
+import NavBar from "./components/NavBar.js"
+import  Hero  from "./components/Hero.js";
+import About from "./components/About.js"
+import Work from "./components/Work.js"
 
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <ComingSoon/>
+        <NavBar/>
+        <Hero/>
+        <About/>
+        <Work/>
       </div>
     );
   }

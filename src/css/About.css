@@ -10,7 +10,6 @@
     color: black;
     position: absolute;
     padding-top: 25%;
-
     transform: translate(-50%, -50%);
     width: 100%;
     height: auto;
@@ -28,7 +27,6 @@
 }
 
 .container {
-
     display: flex;
     align-items: center;
 }
@@ -42,7 +40,6 @@
 .image {
     flex: 1;
     text-align: right;
-
 }
 
 .image img {
@@ -54,15 +51,27 @@
 }
 
 @media only screen and (max-width: 782px) {
+    .About {
+        height: 50vh;
+        padding-left: 0.25em;
+    }
     .image {
         display: none;
     }
 
-
-    .container {
-        padding-left: 0.25em;
-        padding-right: 0.25em;
+    .about {
+        left: 55%;
+        margin: 0;
     }
 
+    .text h1 {
+        font-size: 1.4em;
+    }
+    .text h2 {
+        padding-top: 10%;
+    }
+    .text p{
+
+    }
 
 }

@@ -7,9 +7,9 @@ const resources = {
   en: {
     translation: {
         'title': 'Designer & Developer',
-        'about':  'About',
-        'bio': ' I am  developer with a passion for the convergence of technology and design. I combine my technical expertise with a creative mindset to craft innovative and intuitive digital solutions.I am commited to staying at the forefront of emerging technologies which drives my constant pursuit of knowledge and exploration.',
-        'work': 'Work',
+        'about':  'ABOUT',
+        'bio': ' I am a web developer with a passion for technology and design. I am driven to merge my technical expertise with a creative mindset. I am committed to learning and growing in the field, and I eagerly embrace every opportunity to contribute to projects that challenge and inspire me.',
+        'work': 'WORK',
         'comingsoon': 'Coming soon',
         'chat': 'Let\'s chat',
         'bpnp': '1. Between Past & Present',

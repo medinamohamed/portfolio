@@ -1,9 +1,7 @@
 import React from 'react';
 import '../css/Hero.css';
 
-import { useTranslation } from 'react-i18next';
 const Hero = () => {
-  const { t } = useTranslation();
   return (
     <div className="Hero">
       <section className="hero">

@@ -40,11 +40,11 @@
 
 }
 
-.project-preview {
+/* .project-preview {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 999;
+   
     display: none;
     pointer-events: none;
 }
@@ -53,7 +53,7 @@
     width: 15rem;
     height: auto;
     position: absolute;
-}
+} */
 
 .project-line {
     border-top: 1px solid #ccc;
@@ -79,10 +79,8 @@
     position: absolute;
     background-size: cover;
     width: 300px;
-    filter: invert(100%);
-    mix-blend-mode: difference;
     height: 400px;
-    z-index: 0;
+    border-radius: 7.5%;
     user-select: none;
     pointer-events: none;
     transform: translate(5px, 5px);

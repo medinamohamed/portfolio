@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
+import  LanguageSwitcher from './LanguageSwitcher';
 import { navVariants } from '../utils/motion';
 
 const NavLinks = (props) => {
@@ -18,6 +19,9 @@ const NavLinks = (props) => {
             </li>
             <li onClick={() => props.isMobile && props.closeMobileMenu()}>
                 <a href={`mailto:${emailAddress}`} target="_blank" rel="noopener noreferrer">Contact</a>
+            </li>
+            <li>
+                <LanguageSwitcher />
             </li>
         </motion.ul>
     );

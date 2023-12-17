@@ -6,33 +6,46 @@
     z-index: -1;
     color: black;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50%; /* Adjust the top position as needed */
+    left: 55%;
     transform: translate(-50%, -50%);
     width: 100%;
-    text-align: left;
-    padding-left: 1em;
+    text-align: left; /* Center the text */
+    padding: 1em; /* Equal padding for all sides */
     font-family: 'Culture Bold', Arial, sans-serif;
-
 }
 
 .header h1 {
     color: black;
-    font-size: 1em;
+    font-size: 1.25em;
     margin: 0;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
+}
 
+.header p {
+    font-size: 0.3em;
+    margin: 0; 
+}
+
+.header h2 {
+    letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 782px) {
+    .Hero{
+        height: 100vh;
 
+    }
     .header {
-        left: 40%;
+        left: 55%;
         margin: 0;
     }
 
     .header h1 {
         font-size: 0.4em;
+    }
+    .header p{
+        font-size: 0.2em;
 
     }
 }

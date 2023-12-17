@@ -8,8 +8,9 @@ const Hero = () => {
     <div className="Hero">
       <section className="hero">
         <header className="header">
-          <h1>MEDINA MOHAMED</h1>
-          <h2>{t('title')}</h2>
+          <h2>Medina Mohamed</h2>
+          <h1>CREATIVE DEVELOPER</h1>
+         
         </header>
       </section>
 

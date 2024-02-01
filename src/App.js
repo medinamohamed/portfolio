@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import './App.css';
 
 // import NavBar from './components/NavBar.js';
@@ -8,8 +8,8 @@ import './App.css';
 import ComingSoon from './components/ComingSoon.js';
 
 const App = () => {
-  const appRef = useRef(null);
-  const toRef = useRef(null);
+  // const appRef = useRef(null);
+  // const toRef = useRef(null);
 
   // useEffect(()=> {
   //   const moveGradient = (event) => {
